@@ -1,0 +1,19 @@
+# 前言
+1.保证DRY、可维护、灵活性、轻量级且尽可能符合标准
+DRY：donot repeat youself
+2.当需要通过层叠机制来确保那条声明最终生效，应该把标准语法排在最后
+3.提供回退机制是种好的选择，如
+①、
+![image-20201230103039039](C:\Users\EDZ\AppData\Roaming\Typora\typora-user-images\image-20201230103039039.png)
+(实色是渐变色的平均色值)
+②、或使用Modernizr工具http://modernizr.com/
+③、使用@supports规则实现回退（慎用：必须同时支持@supports规则才能生效）
+
+# 一、引言
+## Web标准
+1.W3C并不生产规则，规则的产生过程是几乎公开的，很多规则的产生浏览器厂商等可以起决策作用。
+2.前缀的使用是一个败笔
+## CSS编码技巧
+1.尽量减少代码重复，尽量减少改动时需要编辑的地方
+2.currentColor：当前元素的color值或从父元素获得颜色
+3.
