@@ -3,8 +3,7 @@
 DRY：donot repeat youself
 2.当需要通过层叠机制来确保那条声明最终生效，应该把标准语法排在最后
 3.提供回退机制是种好的选择，如
-①、
-![image-20201230103039039](C:\Users\EDZ\AppData\Roaming\Typora\typora-user-images\image-20201230103039039.png)
+①、![image-20201230103039039](D:\Typora\img\image-20201230103039039.png)
 (实色是渐变色的平均色值)
 ②、或使用Modernizr工具http://modernizr.com/
 ③、使用@supports规则实现回退（慎用：必须同时支持@supports规则才能生效）
